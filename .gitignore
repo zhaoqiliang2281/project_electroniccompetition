@@ -1,0 +1,43 @@
+# ===== Keil MDK / µVision 编译产物 =====
+Objects/
+Listings/
+DebugConfig/*.log
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.htm
+*.dep
+*.lnp
+*.bak
+# µVision 的个人界面状态文件（含本机用户名，不适合公开）
+*.uvguix.*
+*.uvoptx
+*.uvprojx.bak
+
+# ===== TI MSPM0 (SysConfig / SDK) =====
+keil/Objects/
+*_linkInfo.xml
+syscfg/
+
+# ===== 本地临时文件 / 备份 =====
+_comment_backup/
+.comment_work/
+_comment_work/
+_backup_*/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 常见 IDE =====
+.vscode/
+.idea/
+*.suo
+*.user
